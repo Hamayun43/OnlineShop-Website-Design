@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Lora&family=Noto+Serif&family=Roboto+Slab&family=Uchen&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    ----main-text-color :#3bcece;
+    ---header-grey : grey;
+    --orange-color: linear-gradient(orange 65%,yellow);
+}
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo h3{
+    font-size: 35px;
+    margin: 0px;
+    padding: 0px;
+    color: var(---header-grey);
+    font-family: 'Lora', serif;
+}
+.main-text{
+    color: var(----main-text-color);
+    font-family: 'Lora', serif;
+}
+.logo h6{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    color: var(---header-grey);
+    font-weight: 600;
+    line-height: 1px;
+    font-family: 'Lora', serif;
+}
+.right-side{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.bottom-content{
+    display: flex;
+}
+.content{
+    margin-top: 20px;
+}
+.flags{
+    border-bottom: 2px dotted rgb(163, 162, 162);
+    
+}
+.flags img{
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.flags .one{
+    font-size: 20px;
+    color: red;
+}
+.flags .two{
+    font-size: 20px;
+    color: green;
+}
+.flags .three{
+    font-size: 20px;
+    color: purple;
+}
+.bottom-content{
+    padding-top: 10px;
+}
+.bottom-content i{
+    border: 1px solid rgb(95, 90, 90);
+    padding: 7px 5px;
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.bottom-content h6{
+    padding-left: 5px;
+    font-size: 14px;
+    color: var(---header-grey);
+    font-weight: 600;
+}
+.bottom-content span{
+    color: var(----main-text-color);
+    font-weight: 550;
+}
+.navs-links{
+    border-left: 2px dotted rgb(163, 162, 162);
+    padding-left: 25px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.navs-links li{
+    text-decoration: underline;
+    list-style-type: circle;
+    color: var(---header-grey);
+    font-weight: 540;
+    padding-top: 4px;
+    font-weight: 490;
+}
+.border-bottom{
+    display: block;
+    margin: 5px auto 0px auto;
+    height: 5px;
+    width: 860px;
+    background: linear-gradient(orange,yellow);
+}
+
+
+.Second-Section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 0px 0px 35px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar-left ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+.navbar-left ul li{
+    border-bottom: 2px dotted var(---header-grey);
+    padding-top: 11px;
+    padding-bottom: 2px;
+    color: var(---header-grey);
+    font-size: 16px;
+    font-weight: 549;
+    list-style-type: circle;
+    text-align: center;
+}
+.right-image{
+    box-sizing: border-box;
+}
+.border-bottom-s{
+    display: block;
+    margin: -4px auto;
+    height: 5px;
+    width: 862px;
+    background-color: var(---header-grey);
+}
+
+
+.Third-Section{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.left-section{
+    width: 300px;
+    height: 400px;
+
+}
+.mid-section{
+    width: 345px;
+    height: 400px;
+
+}
+.right-section{
+    width: 215px;
+    height: 400px;
+    background-color: rgb(212, 209, 209);
+}
+
+.head-part{
+    background-color: grey;
+    height: 30px;
+    padding-top: 7px;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    font-size: 17px;
+    margin-top: 1px;
+}
+.categories{
+    height: 270px;
+    border: 1px solid var(---header-grey);
+    box-sizing: border-box;
+    margin-top: 1px;
+    text-align: left;
+}
+.categories ul{
+    padding-top: 15px; 
+    display: flex; 
+    flex-direction: column;
+    padding-left: 40px;
+}
+.categories ul li{
+    list-style: circle;
+    font-weight: 500;
+    padding-left: 25px;
+    padding-top: 10px;
+    color: #2bc7c7;
+    text-decoration: underline;
+
+}
+.last-part{
+    height: 68px;
+    border: 1px solid gray;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 25px;
+    margin-top: 1px;
+}
+.last-part .Search-input{
+    width: 120px;
+    color: var(---header-grey);
+    text-align: left;
+}
+.last-btn{
+    color: white;
+    background: var(--orange-color);
+    border: 1px solid orange;
+    padding: 1px;
+    width: 30px;
+    text-align: center;
+}
+.mid-section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.header-part{
+    height: 32px;
+    background: var(--orange-color);
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 1px;
+}
+.Products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bottom-product{
+    margin-top: 60px;
+}
+.top-product{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.shirt{
+    border: 1px solid rgb(206, 196, 196);
+    height: 120px;
+    width: 90px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.shirt-detail{
+    margin-left: 8px;
+}
+.shirt-detail label{
+    font-size: 12px;
+    color: var(---header-grey);
+    font-weight: 500;
+}
+.shirt img{
+    padding-top: 9px;
+}
+.shirt-detail select{
+    margin-top: 1px;
+}
+.Color{
+    width: 100px;
+    margin-left: 30px;
+}
+.Sex{
+    width: 100px;
+    margin-left: 40px;
+}
+.quantity{
+    width: 100px;
+    margin-left: 15px;
+}
+.buttons{
+    margin-top: 7px;
+}
+.left-button{
+    background: rgb(145, 142, 142);
+    color: white;
+    padding: 2px 3px 2px 0px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.left-button i{
+    padding-right: 5px;
+}
+.right-button{
+    background: var(--orange-color);
+    color: white;
+    padding: 2px 3px 2px 0px;
+    border: 1px solid orange;
+    border-radius: 2px;
+}
+.header-part-Third{
+    background: var(--orange-color);
+    height: 30px;
+    padding-top: 7px;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    font-size: 17px;
+    margin-top: 1px;
+    margin-left: 1px;
+
+}
+.myshirts-products{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.Shirts-product1{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    margin-top: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 2px;
+}
+.shirt1-detail{
+    padding-left: 10px;
+}
+.left-Image{
+    height: 120px;
+    width: 300px;
+    border: 1px solid grey;
+    background-image: url(Images/fourth.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+    border: 1px solid gray;
+}
+.fourth-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+.brands-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 560px;
+    height: 122px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    margin-left: 2px;
+}
+.brands-logo img{
+    text-align: center;
+    padding-left: 25px;
+}
+.img-brand{
+    border-left: 1px solid rgb(206, 196, 196);
+}
+.border-bottom-sections{
+    display: block;
+    margin: 5px auto 2px auto;
+    height: 5px;
+    width: 862px;
+    background-color: var(---header-grey);
+
+}
+.footer{
+    display: flex;
+    width: 860px;
+    height: 70px;
+    margin: auto;
+}
+.left-images-footer{
+    width: 300px;
+    border-right: 1px solid gray;
+    height: 70px;
+    text-align: center;
+}
+.left-images-footer img{
+    border: 1px solid gray;
+    padding: 2px 3px 3px 2px;
+    margin-top: 5px;
+}
+ .right-footer-heading{
+    width: 560px;
+    height: 70px;
+    text-align: center;
+} 
+.right-footer-heading ul {
+    display: flex;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.right-footer-heading ul li{
+    padding-left: 7px;
+    list-style: none;
+    color: gray;
+}
+.right-footer-heading ul li a{
+    border-left: 1px solid gray;
+    padding-left: 3px;
+}
+.end-heading{
+    font-weight: bold;
+}
+
